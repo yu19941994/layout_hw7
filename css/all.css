@@ -1,0 +1,67 @@
+img{
+    display: block;
+    /* max-width: 100%; */
+    height: auto;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5{
+    font-family: merriweather !important;
+    line-height: 1.5;
+}
+p{
+    font-family: lato !important;
+    line-height: 1.5;
+}
+.logo{
+    display: block;
+    background-image: url('../image/logo-fixie.svg');
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 112px;
+    height: 48px;
+}
+
+.w-45{
+    width: 45%;
+}
+
+.w-83{
+    width: 83%;
+}
+
+.custom-img{
+    max-width: 960px;
+}
+
+.text-l{
+    font-size: 48px !important;
+}
+.pt-6{
+    padding-top: 100px;
+}
+.mb-6{
+    margin-bottom: 100px;
+}
+.mb-7{
+    margin-bottom: 77px;
+}
+.bg-gear{
+    background-color: #F1F5F6;
+}
+.py-6{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.bg-img{
+    background-image:url('../image/img4.jpg');
+    background-position: top center;
+    background-size: cover;
+    height: 640px;
+    background-attachment: fixed;
+}
+.bg-footer{
+    background-color: #F1F5F6;
+}
