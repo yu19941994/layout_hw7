@@ -3,8 +3,8 @@ img{
     /* max-width: 100%; */
     height: auto;
 }
-*, *::before, *::after {
-    box-sizing: border-box;
+body{
+    overflow-x: hidden;
 }
 h1,h2,h3,h4,h5{
     font-family: merriweather !important;
@@ -13,6 +13,9 @@ h1,h2,h3,h4,h5{
 p{
     font-family: lato !important;
     line-height: 1.5;
+}
+h2{
+    font-weight: bold;
 }
 .logo{
     display: block;
